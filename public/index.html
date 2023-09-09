@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de Contacto</title>
+</head>
+<body>
+  <h1>Formulario de Contacto</h1>
+  <form action="/submit" method="post" enctype="multipart/form-data">
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" required><br>
+
+    <label for="dpiFile">Archivo adjunto DPI:</label>
+    <input type="file" name="dpiFile" accept=".pdf, .jpg, .png" required><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
